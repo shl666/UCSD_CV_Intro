@@ -16,8 +16,10 @@ Python3
 
 我会尽量标注所有专有名词的英文，以免对大家产生混淆。
 
-参考书："Computer vision: A Modern Approach," (2nd ed.) David A. Forsyth, Jean Ponce, Prentice Hall, ISBN: 013608592X
+参考书："Computer vision: A Modern Approach," (2nd ed.) David A. Forsyth, Jean Ponce, Prentice Hall, ISBN: 013608592X <br>
+
 ![CVbook][images/CVbook.jpeg]
 
-David大头照镇楼，希望我能写完这个教程...
+David大头照镇楼，希望我能写完这个教程... <br>
+
 ![david][images/david.png]
