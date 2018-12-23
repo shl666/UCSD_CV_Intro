@@ -18,8 +18,8 @@ Python3
 
 参考书："Computer vision: A Modern Approach," (2nd ed.) David A. Forsyth, Jean Ponce, Prentice Hall, ISBN: 013608592X <br>
 
-![CVbook][images/CVbook.jpeg]
+![][images/CVbook.jpeg]
 
 David大头照镇楼，希望我能写完这个教程... <br>
 
-![david][images/david.png]
+![][images/david.png]
