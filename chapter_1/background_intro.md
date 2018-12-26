@@ -33,16 +33,16 @@ Forsyth & Ponce (Text): 从图片或图片序列中提取对世界的描述。
 1. 光学字符识别（OCR：Optical Character Recognition）
 
 ![OCR](images/OCR.png)
-1. 面部识别 （Face Recgnition）
+2. 面部识别 （Face Recgnition）
 
 ![FaceRecgnition](images/facerecgnition.png)
-1. 虚拟图像转播技术（这里看上去更偏graphics）
+3. 虚拟图像转播技术（这里看上去更偏graphics）
 
 ![virtual](images/virtual.png)
-1. 无人车／自动驾驶
+4. 无人车／自动驾驶
 
 ![carl](images/car.png)
-1. 这里再很不要脸地贴一个自己的[小目标检测项目](https://github.com/shl666/SSD_small_object_detection) hhhhhhh
+5. 这里再很不要脸地贴一个自己的[小目标检测项目](https://github.com/shl666/SSD_small_object_detection) hhhhhhh
 
 ![small](images/face_3_result.jpg)
 
