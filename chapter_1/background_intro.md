@@ -29,13 +29,13 @@ Forsyth & Ponce (Text): 从图片或图片序列中提取对世界的描述。
 
 1. 3D模拟地图：谷歌地图／谷歌地球
 ![GoogleeEarth](images/googleearth.png)
-1. 光学字符识别（OCR：Optical Character Recognition）
+1. 光学字符识别（OCR：Optical Character Recognition）包括手写字符／实际照片中的字符识别
 ![OCR](images/OCR.png)
 1. 面部识别 （Face Recgnition）
 ![FaceRecgnition](images/facerecgnition.png)
 1. 虚拟图像转播技术（这里看上去更偏graphics）
 ![virtual](images/virtual.png)
 1. 无人车／自动驾驶
-![carl](images/carl.png)
-1. 这里再很不要脸地贴一个自己的[小目标检测项目](https://github.com/shl666/SSD_small_object_detection)
+![carl](images/car.png)
+1. 这里再很不要脸地贴一个自己的[小目标检测项目](https://github.com/shl666/SSD_small_object_detection) hhhhhhh
 
