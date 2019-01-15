@@ -5,7 +5,8 @@
 Python3
 
 # 写在最前面
-这是一个改编自UCSD CSE252A的CV入门级教程，在此感谢[David J.Kriegman](http://cseweb.ucsd.edu/~kriegman/)教授和[Benjamin L.Ochoa](http://cseweb.ucsd.edu/~bochoa/)对视觉小白（就是我）的启蒙。~整个教程会涉及5块内容~
+这是一个改编自UCSD CSE252A的CV入门级教程，在此感谢[David J.Kriegman](http://cseweb.ucsd.edu/~kriegman/)教授和[Benjamin L.Ochoa](http://cseweb.ucsd.edu/~bochoa/)对视觉小白（就是我）的启蒙。
+我会尽量标注所有专有名词的英文，以免对大家产生混淆。~整个教程会涉及5块内容~
 1. [**背景介绍与人类视觉**](https://github.com/shl666/UCSD_CV_Intro/blob/master/chapter_1/background_intro.md)
 ~
 1. ~**视觉几何** e.g. 透射几何、相机模型、透镜、刚体转换等~
@@ -20,8 +21,7 @@ Python3
 ## [从**兴趣点检测和匹配**（Feature Detection/Matching）开始](https://github.com/shl666/UCSD_CV_Intro/blob/master/chapter_2/corner_detector_matching.md)
 这一节会详细介绍一种非常质朴的Feature Detector(又名Corner Detector) -- The Förstner corner detector([维基百科解释](https://en.wikipedia.org/wiki/Corner_detection#The_F%C3%B6rstner_corner_detector))。整个特征点检测和两幅图之间匹配的流程都会尽可能详尽地描述，包括数学表达式与伪代码。
 
-
-我会尽量标注所有专有名词的英文，以免对大家产生混淆。
+# 参考
 
 参考书："Computer vision: A Modern Approach," (2nd ed.) David A. Forsyth, Jean Ponce, Prentice Hall, ISBN: 013608592X <br>
 
