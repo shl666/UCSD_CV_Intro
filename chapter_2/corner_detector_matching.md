@@ -32,17 +32,23 @@
 1. 我们会有一张图片$I$，首先我们要对图片进行黑白处理。一般来说图片根据不同的存储格式会有3到4个图层，我们这一步是将他们变成一个（不变也没关系，就是计算量翻倍）。
 
 1. 然后我们需要对图片进行梯度计算，分别是横向(x轴)与纵向(y轴)。这里需要引入Five Point Central Opertor（没找到中文翻译...）。其实说到底就是一个卷积核，是根据某些数学运算推导出来的。有兴趣看深入了解的同学请点[这里](https://en.wikipedia.org/wiki/Five-point_stencil)。
-$$
+
+<img src="http://latex.codecogs.com/gif.latex?k_x=1/12\left[\begin{matrix}-1&8&0&-8&1\end{matrix}\right]" \>
+
   k_x=1/12
+  \left[
   \begin{matrix}
    -1 & 8 & 0 & -8 & 1
   \end{matrix}
+  \right]
 $$
 $$
   k_y=1/12
+  \left[
   \begin{matrix}
    -1 & 8 & 0 & -8 & 1
-  \end{matrix}^{T}
+  \end{matrix}
+  \right]^{T}
 $$
 我们可以得到两幅图像$I_x$和$I_y$。利用简单的矩阵运算，我们在这里最好算出$I_xx$和$I_yy$，他们分别是$I_x$和$I_y$的平方值（$I_xx(i,j) = I_{x}^{2}(i,j)$），下一步会有用。
 
