@@ -1,8 +1,4 @@
-这是一篇填坑文。
-
-之前写了一篇关于特征点检测的[文章](https://blog.csdn.net/weixin_44558898/article/details/86528428)，其中只提及了特征点检测的部分，下面是关于特征点匹配的算法介绍。
-
-这不是一个非常精确的匹配算法，只能筛选出大致正确的匹配特征点。如果以后有时间，我会继续介绍进一步的精确匹配算法（Outlier rejection）。听起来好像又给自己挖了个坑。。。。。
+这不是一个非常精确的匹配算法，只能筛选出大致正确的匹配特征点。如果以后有时间，我会继续介绍进一步的精确匹配算法（Outer Lier Rejection和M-estimator Sample Consensus(MSAC)的组合应用）。听起来好像又给自己挖了个坑。。。。。
 
 好了，扯远了，下面开始介绍这个粗糙的匹配算法吧。
 
@@ -39,3 +35,9 @@
 整个算法描述完了，我们好像遗漏了一个很关键的步骤——如何计算**相关性系数**？
 
 ## 相关性系数
+相关性系数的计算方式有很多种，下面这张表展示了其中的一部分。这个相关性系数算法和之前的特征点检测算法一样，都需要一个窗口大小（window size），毕竟匹配的不可能是一个像素点，而是一小块区域，具体参数大小可以根据实际情况来调整。
+![match matrix](https://raw.githubusercontent.com/shl666/UCSD_CV_Intro/master/chapter_2/images/matchmatrix.png)
+
+我用的是NCC算法。最后的结果长这样：
+![corner matching](https://raw.githubusercontent.com/shl666/UCSD_CV_Intro/master/chapter_2/images/corner_matching.png)
+emmmm结果依旧不是特别好，但是勉强可以用。我先把Outer Lier Rejection和M-estimator Sample Consensus(MSAC)的算法结果po上来吧。那个就看起来很舒服，有空再来填坑。![corner matching](https://raw.githubusercontent.com/shl666/UCSD_CV_Intro/master/chapter_2/images/outerlierrejection.png)
